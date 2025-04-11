@@ -149,4 +149,4 @@ def update_graph(data, time_range, file_name, sizing_toggle):
 
 # Run the app
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(debug=False)
