@@ -8,6 +8,7 @@ import io
 
 # Dash app setup
 app = dash.Dash(__name__)
+server = app.server
 
 # Directory with CSVs
 CSV_DIR = './'  # Replace with your directory of CSV files
